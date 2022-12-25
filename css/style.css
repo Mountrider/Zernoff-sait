@@ -1,0 +1,212 @@
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fig {
+  display: block;
+  text-align: center; /* Выравнивание по центру */ 
+  margin-top: 280px; /* Отступ сверху */
+  margin-bottom: 4px;
+ }
+
+table {
+	overflow:hidden;
+	border:1px solid #0077ff;
+	background:#fefefe;
+	width:70%;
+	margin:5% auto 0;
+	-moz-border-radius:5px; /* FF1+ */
+	-webkit-border-radius:5px; /* Saf3-4 */
+	border-radius:5px;
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+th, td {padding:18px 28px 18px; text-align:center; }
+
+th {padding-top:22px; text-shadow: 1px 1px 1px #0077ff; background:#e8eaeb;}
+
+td {border-top:1px solid #0077ff; border-right:1px solid #0077ff;}
+
+tr.odd-row td {background:#f6f6f6;}
+
+td.first, th.first {text-align:left}
+
+td.last {border-right:none;}
+
+
+td {
+	background: -moz-linear-gradient(100% 25% 90deg, #fefefe, #f9f9f9);
+	background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#ffffff), to(#fefefe));
+}
+
+tr.odd-row td {
+	background: -moz-linear-gradient(100% 25% 90deg, #f6f6f6, #f1f1f1);
+	background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f1f1f1), to(#f6f6f6));
+}
+
+th {
+	background: -moz-linear-gradient(100% 20% 90deg, #e8eaeb, #ededed);
+	background: -webkit-gradient(linear, 0% 0%, 0% 20%, from(#ffffff), to(#fefefe));
+}
+
+tr:first-child th.first {
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px; /* Saf3-4 */
+}
+
+tr:first-child th.last {
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px; /* Saf3-4 */
+}
+
+tr:last-child td.first {
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px; /* Saf3-4 */
+}
+
+tr:last-child td.last {
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px; /* Saf3-4 */
+}
+
+.msg {
+    border-radius: 2px;
+    border: 2px solid red;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Buttons */
+
+.wrap-btn {
+    width: 100%;
+    display: flex;
+}
+
+.shine-button {
+  text-decoration: none;
+  padding: 10px 30px;
+  overflow: hidden;
+  border: 2px solid #0077ff;
+  border-radius: 100px;
+  font-family: 'Montserrat', sans-serif;
+  color: #0077ff;
+  transition: .2s ease-in-out;
+}
+.shine-button:before {
+  content: "";
+  background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -8px;
+  left: -75px;
+  transform: skewX(-45deg);
+}
+.shine-button:hover {
+  background: #0077ff;
+  color: #fff;
+}
+.shine-button:hover:before {
+  left: 150px;
+  transition: .5s ease-in-out;
+}
+
+
+
+.shine-button1 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 30px 1510px;
+  position: absolute;
+  overflow: hidden;
+  border: 2px solid #0077ff;
+  border-radius: 100px;
+  font-family: 'Montserrat', sans-serif;
+  color: #0077ff;
+  transition: .2s ease-in-out;
+}
+.shine-button1:before {
+  content: "";
+  background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -8px;
+  left: -75px;
+  transform: skewX(-45deg);
+}
+.shine-button1:hover {
+  background: #0077ff;
+  color: #fff;
+}
+.shine-button1:hover:before {
+  left: 150px;
+  transition: .5s ease-in-out;
+}
+
+
+/*Registration Form */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: #0077ff;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid #0077ff;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #0077ff;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+
+.signin {
+  background-color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+      
+     
